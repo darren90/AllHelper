@@ -1,0 +1,22 @@
+PODS:
+  - Alamofire (3.1.4)
+  - Bugly (1.4.6)
+  - MJRefresh (3.0.8)
+  - UMengAnalytics (3.6.6)
+  - UMengSocial (4.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.0)
+  - Bugly (~> 1.4.4)
+  - MJRefresh (~> 3.0.8)
+  - UMengAnalytics (~> 3.6.6)
+  - UMengSocial (~> 4.4)
+
+SPEC CHECKSUMS:
+  Alamofire: fbc829692f351fa1d8a31dd75fd7f7f56fea31fb
+  Bugly: 13c3ca1f67d68f037416ab4dbef5b6cd3f933e84
+  MJRefresh: fafde8f18f4afd66b434331a9beb67a6c0264056
+  UMengAnalytics: 4bf831415146b9c57cb10be65fbd43462ef8cf65
+  UMengSocial: aba7296602310385114d82c255539a7bef3b7ab0
+
+COCOAPODS: 0.38.2
