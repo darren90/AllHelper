@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  AllHelper
+//
+//  Created by Tengfei on 16/1/17.
+//  Copyright © 2016年 tengfei. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+/**
+ pod 'Alamofire', '~> 3.0'
+ 
+ pod 'MJRefresh', '~> 3.0.8'
+ pod 'Bugly', '~> 1.4.4'            #QQBugly
+ pod 'UMengAnalytics', '~> 3.6.6'    #标准SDK，含IDFA
+ pod 'UMengSocial', '~> 4.4'          #友盟分享
+ */
+
+
+
+ 
+
+#endif /* PrefixHeader_pch */
