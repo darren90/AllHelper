@@ -9,8 +9,10 @@
 /* Begin PBXBuildFile section */
 		9DEE255779B992651C623FEA /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09E3D9F08D0388C4C1034EFD /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		FE328BE41C5118B300B71B86 /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FE328BDD1C5118B300B71B86 /* UIView+AutoLayout.m */; };
-		FE328BE71C5118CA00B71B86 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE328BE61C5118CA00B71B86 /* BaseNavigationController.m */; };
-		FE328BEA1C5118E100B71B86 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE328BE91C5118E100B71B86 /* BaseTabBarController.m */; };
+		FE328BFD1C5121BB00B71B86 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE328BFC1C5121BB00B71B86 /* HomeViewController.swift */; };
+		FE328C021C51222200B71B86 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE328C011C51222200B71B86 /* BaseViewController.swift */; };
+		FE328C041C51223C00B71B86 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE328C031C51223C00B71B86 /* BaseNavigationController.swift */; };
+		FE328C061C51224B00B71B86 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE328C051C51224B00B71B86 /* BaseTabBarController.swift */; };
 		FE60DE1A1C4B8BEB005D675A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE60DE191C4B8BEB005D675A /* AppDelegate.swift */; };
 		FE60DE1C1C4B8BEB005D675A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE60DE1B1C4B8BEB005D675A /* ViewController.swift */; };
 		FE60DE1F1C4B8BEB005D675A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE60DE1D1C4B8BEB005D675A /* Main.storyboard */; };
@@ -43,17 +45,17 @@
 		A5E8072E25046E37ECD693E2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		FE328BDC1C5118B300B71B86 /* UIView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayout.h"; sourceTree = "<group>"; };
 		FE328BDD1C5118B300B71B86 /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
-		FE328BE51C5118CA00B71B86 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
-		FE328BE61C5118CA00B71B86 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
-		FE328BE81C5118E100B71B86 /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
-		FE328BE91C5118E100B71B86 /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		FE328BFC1C5121BB00B71B86 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FE328C011C51222200B71B86 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		FE328C031C51223C00B71B86 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		FE328C051C51224B00B71B86 /* BaseTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
 		FE60DE161C4B8BEB005D675A /* AllHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE60DE191C4B8BEB005D675A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE60DE1B1C4B8BEB005D675A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FE60DE1E1C4B8BEB005D675A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE60DE201C4B8BEB005D675A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE60DE231C4B8BEB005D675A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FE60DE251C4B8BEB005D675A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE60DE251C4B8BEB005D675A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../AllHelper/Info.plist; sourceTree = "<group>"; };
 		FE60DE2A1C4B8BEB005D675A /* AllHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE60DE2E1C4B8BEB005D675A /* AllHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllHelperTests.swift; sourceTree = "<group>"; };
 		FE60DE301C4B8BEB005D675A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				FE328BCB1C5118B300B71B86 /* Main */,
+				FE328BF51C51213D00B71B86 /* Home */,
 				FE328BD11C5118B300B71B86 /* NewNote */,
 				FE328BD51C5118B300B71B86 /* NoteList */,
 				FE328BD91C5118B300B71B86 /* Other */,
@@ -133,10 +136,9 @@
 		FE328BCC1C5118B300B71B86 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				FE328BE51C5118CA00B71B86 /* BaseNavigationController.h */,
-				FE328BE61C5118CA00B71B86 /* BaseNavigationController.m */,
-				FE328BE81C5118E100B71B86 /* BaseTabBarController.h */,
-				FE328BE91C5118E100B71B86 /* BaseTabBarController.m */,
+				FE328C011C51222200B71B86 /* BaseViewController.swift */,
+				FE328C031C51223C00B71B86 /* BaseNavigationController.swift */,
+				FE328C051C51224B00B71B86 /* BaseTabBarController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -303,6 +305,38 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		FE328BF51C51213D00B71B86 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FE328BF61C51213D00B71B86 /* Controller */,
+				FE328BF71C51213D00B71B86 /* Model */,
+				FE328BF81C51213D00B71B86 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FE328BF61C51213D00B71B86 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FE328BFC1C5121BB00B71B86 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FE328BF71C51213D00B71B86 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FE328BF81C51213D00B71B86 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		FE60DE0D1C4B8BEB005D675A = {
 			isa = PBXGroup;
 			children = (
@@ -328,14 +362,12 @@
 		FE60DE181C4B8BEB005D675A /* AllHelper */ = {
 			isa = PBXGroup;
 			children = (
-				FE328BCA1C5118B300B71B86 /* Class */,
 				FE60DE191C4B8BEB005D675A /* AppDelegate.swift */,
 				FE60DE1B1C4B8BEB005D675A /* ViewController.swift */,
 				FEBC852D1C4B8F4A00D28387 /* PrefixHeader.pch */,
 				FE60DE1D1C4B8BEB005D675A /* Main.storyboard */,
 				FE60DE201C4B8BEB005D675A /* Assets.xcassets */,
-				FE60DE221C4B8BEB005D675A /* LaunchScreen.storyboard */,
-				FE60DE251C4B8BEB005D675A /* Info.plist */,
+				FE328BCA1C5118B300B71B86 /* Class */,
 			);
 			path = AllHelper;
 			sourceTree = "<group>";
@@ -343,6 +375,8 @@
 		FE60DE2D1C4B8BEB005D675A /* AllHelperTests */ = {
 			isa = PBXGroup;
 			children = (
+				FE60DE221C4B8BEB005D675A /* LaunchScreen.storyboard */,
+				FE60DE251C4B8BEB005D675A /* Info.plist */,
 				FE60DE2E1C4B8BEB005D675A /* AllHelperTests.swift */,
 				FE60DE301C4B8BEB005D675A /* Info.plist */,
 			);
@@ -540,8 +574,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE328BEA1C5118E100B71B86 /* BaseTabBarController.m in Sources */,
-				FE328BE71C5118CA00B71B86 /* BaseNavigationController.m in Sources */,
+				FE328C061C51224B00B71B86 /* BaseTabBarController.swift in Sources */,
+				FE328C021C51222200B71B86 /* BaseViewController.swift in Sources */,
+				FE328BFD1C5121BB00B71B86 /* HomeViewController.swift in Sources */,
+				FE328C041C51223C00B71B86 /* BaseNavigationController.swift in Sources */,
 				FE60DE1C1C4B8BEB005D675A /* ViewController.swift in Sources */,
 				FE328BE41C5118B300B71B86 /* UIView+AutoLayout.m in Sources */,
 				FE60DE1A1C4B8BEB005D675A /* AppDelegate.swift in Sources */,
@@ -594,6 +630,7 @@
 				FE60DE231C4B8BEB005D675A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ../AllHelper;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
