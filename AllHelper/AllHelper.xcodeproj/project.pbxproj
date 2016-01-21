@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9DEE255779B992651C623FEA /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09E3D9F08D0388C4C1034EFD /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FE328BE41C5118B300B71B86 /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FE328BDD1C5118B300B71B86 /* UIView+AutoLayout.m */; };
+		FE328BE71C5118CA00B71B86 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE328BE61C5118CA00B71B86 /* BaseNavigationController.m */; };
+		FE328BEA1C5118E100B71B86 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE328BE91C5118E100B71B86 /* BaseTabBarController.m */; };
 		FE60DE1A1C4B8BEB005D675A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE60DE191C4B8BEB005D675A /* AppDelegate.swift */; };
 		FE60DE1C1C4B8BEB005D675A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE60DE1B1C4B8BEB005D675A /* ViewController.swift */; };
 		FE60DE1F1C4B8BEB005D675A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE60DE1D1C4B8BEB005D675A /* Main.storyboard */; };
@@ -38,6 +41,12 @@
 		09E3D9F08D0388C4C1034EFD /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1369CD0F78C45C2B9AB9860 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A5E8072E25046E37ECD693E2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		FE328BDC1C5118B300B71B86 /* UIView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayout.h"; sourceTree = "<group>"; };
+		FE328BDD1C5118B300B71B86 /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
+		FE328BE51C5118CA00B71B86 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		FE328BE61C5118CA00B71B86 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		FE328BE81C5118E100B71B86 /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		FE328BE91C5118E100B71B86 /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
 		FE60DE161C4B8BEB005D675A /* AllHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE60DE191C4B8BEB005D675A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE60DE1B1C4B8BEB005D675A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +106,203 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		FE328BCA1C5118B300B71B86 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				FE328BCB1C5118B300B71B86 /* Main */,
+				FE328BD11C5118B300B71B86 /* NewNote */,
+				FE328BD51C5118B300B71B86 /* NoteList */,
+				FE328BD91C5118B300B71B86 /* Other */,
+				FE328BE01C5118B300B71B86 /* Setting */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		FE328BCB1C5118B300B71B86 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FE328BCC1C5118B300B71B86 /* Base */,
+				FE328BCD1C5118B300B71B86 /* Controller */,
+				FE328BCE1C5118B300B71B86 /* Model */,
+				FE328BCF1C5118B300B71B86 /* Tools */,
+				FE328BD01C5118B300B71B86 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		FE328BCC1C5118B300B71B86 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				FE328BE51C5118CA00B71B86 /* BaseNavigationController.h */,
+				FE328BE61C5118CA00B71B86 /* BaseNavigationController.m */,
+				FE328BE81C5118E100B71B86 /* BaseTabBarController.h */,
+				FE328BE91C5118E100B71B86 /* BaseTabBarController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		FE328BCD1C5118B300B71B86 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FE328BCE1C5118B300B71B86 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FE328BCF1C5118B300B71B86 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		FE328BD01C5118B300B71B86 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FE328BD11C5118B300B71B86 /* NewNote */ = {
+			isa = PBXGroup;
+			children = (
+				FE328BD21C5118B300B71B86 /* Controller */,
+				FE328BD31C5118B300B71B86 /* Model */,
+				FE328BD41C5118B300B71B86 /* View */,
+			);
+			path = NewNote;
+			sourceTree = "<group>";
+		};
+		FE328BD21C5118B300B71B86 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FE328BD31C5118B300B71B86 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FE328BD41C5118B300B71B86 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FE328BD51C5118B300B71B86 /* NoteList */ = {
+			isa = PBXGroup;
+			children = (
+				FE328BD61C5118B300B71B86 /* Controller */,
+				FE328BD71C5118B300B71B86 /* Model */,
+				FE328BD81C5118B300B71B86 /* View */,
+			);
+			path = NoteList;
+			sourceTree = "<group>";
+		};
+		FE328BD61C5118B300B71B86 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FE328BD71C5118B300B71B86 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FE328BD81C5118B300B71B86 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FE328BD91C5118B300B71B86 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				FE328BDA1C5118B300B71B86 /* Lib */,
+				FE328BDE1C5118B300B71B86 /* Tools */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		FE328BDA1C5118B300B71B86 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				FE328BDB1C5118B300B71B86 /* UIView+AutoLayout */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		FE328BDB1C5118B300B71B86 /* UIView+AutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				FE328BDC1C5118B300B71B86 /* UIView+AutoLayout.h */,
+				FE328BDD1C5118B300B71B86 /* UIView+AutoLayout.m */,
+			);
+			path = "UIView+AutoLayout";
+			sourceTree = "<group>";
+		};
+		FE328BDE1C5118B300B71B86 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				FE328BDF1C5118B300B71B86 /* Category */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		FE328BDF1C5118B300B71B86 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		FE328BE01C5118B300B71B86 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				FE328BE11C5118B300B71B86 /* Controller */,
+				FE328BE21C5118B300B71B86 /* Model */,
+				FE328BE31C5118B300B71B86 /* View */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		FE328BE11C5118B300B71B86 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FE328BE21C5118B300B71B86 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FE328BE31C5118B300B71B86 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		FE60DE0D1C4B8BEB005D675A = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +328,7 @@
 		FE60DE181C4B8BEB005D675A /* AllHelper */ = {
 			isa = PBXGroup;
 			children = (
+				FE328BCA1C5118B300B71B86 /* Class */,
 				FE60DE191C4B8BEB005D675A /* AppDelegate.swift */,
 				FE60DE1B1C4B8BEB005D675A /* ViewController.swift */,
 				FEBC852D1C4B8F4A00D28387 /* PrefixHeader.pch */,
@@ -333,7 +540,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE328BEA1C5118E100B71B86 /* BaseTabBarController.m in Sources */,
+				FE328BE71C5118CA00B71B86 /* BaseNavigationController.m in Sources */,
 				FE60DE1C1C4B8BEB005D675A /* ViewController.swift in Sources */,
+				FE328BE41C5118B300B71B86 /* UIView+AutoLayout.m in Sources */,
 				FE60DE1A1C4B8BEB005D675A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
