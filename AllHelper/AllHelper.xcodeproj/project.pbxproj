@@ -687,7 +687,7 @@
 			baseConfigurationReference = A5E8072E25046E37ECD693E2 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREFIX_HEADER = /AllHelper/AllHelper/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AllHelper/PrefixHeader.pch";
 				INFOPLIST_FILE = AllHelper/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -701,7 +701,7 @@
 			baseConfigurationReference = A1369CD0F78C45C2B9AB9860 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREFIX_HEADER = /AllHelper/AllHelper/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AllHelper/PrefixHeader.pch";
 				INFOPLIST_FILE = AllHelper/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
