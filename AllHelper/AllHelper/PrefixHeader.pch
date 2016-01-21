@@ -22,6 +22,7 @@
  pod 'UMengSocial', '~> 4.4'          #友盟分享
  */
 
+import Alamofire
 
 
  
