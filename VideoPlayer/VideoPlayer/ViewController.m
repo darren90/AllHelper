@@ -47,7 +47,7 @@
     playerCtrl.vTitleStr = @"大话西游 在终端中进入到你的项目的文件夹，也即是你要提交的项目";
     NSString *path = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask , YES) firstObject];
     NSString *urlStr = [path stringByAppendingPathComponent:@"22.mp4"];
-    playerCtrl.playUrl = @"passenger_nginx.mov";
+    playerCtrl.playUrl = @"22.mp4";
     [self presentViewController:playerCtrl animated:YES completion:nil];
 }
 
